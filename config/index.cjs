@@ -16,14 +16,20 @@ const USER_CONFIG = {
   PROVINCE: '北京',
   CITY: '昌平区',
 
+  SWITCH: {
+    /** 每日天气 */
+    // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    weather: true
+  }
+  
   USERS: [
     {
       // 想要发送的人的名字
       name: '田墩墩',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: 'oD81G6s5BzHkNw3uZplKjhsLN0dI',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'oD81G6s5BzHkNw3uZplKjhsLN0dI',
+      useTemplateId: 'vr2KG5d8F4Lr2ML8kZAnSmMwb07ykAjTUL0VhzB1rTw',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '03-09',
       festivals: [
